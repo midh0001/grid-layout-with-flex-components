@@ -10,12 +10,16 @@
 /* adding .emojis + grid properties */
 
   .emojis{
+    /* styling the definition boxes */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     max-width: 850px;
-    
+  } 
+  /* setting order so emoji shows up first */
+  .emojis span{
+    order: -1;
   }
 
   body {
@@ -43,10 +47,18 @@
     color: white;
     padding: 1rem;
     border-radius: 8px;
+
+    /* aligning button to bottom  */
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-top: auto;
   }
   
   .icon {
     font-size: 4rem;
+
+    /* centering the icon */
     display: grid;
     justify-content: center;
   }
