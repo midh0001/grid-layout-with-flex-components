@@ -12,7 +12,10 @@
   .emojis{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1 fr 1 fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    max-width: 850px;
+    
   }
 
   body {
@@ -44,5 +47,7 @@
   
   .icon {
     font-size: 4rem;
+    display: grid;
+    justify-content: center;
   }
 
