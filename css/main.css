@@ -59,7 +59,7 @@
     font-size: 4rem;
 
     /* centering the icon */
-    display: grid;
+    display: flex;
     justify-content: center;
   }
 
